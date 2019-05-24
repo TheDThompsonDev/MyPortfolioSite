@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137392380-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137392380-1');
+    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta author="Danny Thompson">
+  <link 
+    rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"
+  >
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Danny Thompson | Developer</title>
+</head>
+
+<body>
+  <!--*** NAVIGATION ***-->
+  <nav>
+    <div class="logo">
+      <a href="#"><h4>Danny Thompson</h4></a>
+    </div>
+    <ul class="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="/about.html">About Me</a></li>
+      <li><a href="/projects.html">Projects</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <!--*** LANDING ***-->
+  <section id="landing">
+    <div class="landingOverlay">
+      <header>
+        <h1 id="title">Danny Thompson</h1>
+        <p id="subHeading" >Developer</p>
+        <div class="landingButtons">
+          <a href="/projects.html">
+            <button class="animated slideInLeft" id="projectBtn">View Projects</button>
+          </a>
+          <a href="/01DannyThompsonResume.pdf" target="_blank">
+            <button class="animated slideInRight" id="resumeBtn">My Resume</button>
+          </a>
+        </div>
+        <ul class="icons">
+          <a href="https://github.com/dannythompson901" target="_blank">
+            <li class="contactIcon animated bounceInDown" id="githubLink">
+                <i class="fab fa-github-alt" ></i>
+            </li>
+          </a>
+          <a href="https://www.linkedin.com/in/dannythompson901/" target="_blank">
+            <li class="contactIcon animated bounceInDown" id="linkedInLink">
+                <i class="fab fa-linkedin"></i>
+            </li>
+          </a>
+          <a href="https://twitter.com/DThompsonDev"  target="_blank"">
+            <li class="contactIcon animated bounceInDown" id="twitterLink">
+              <i class="fab fa-twitter"></i>
+            </li>
+          </a>
+          <a href="mailto:dannythompson901@gmail.com">
+            <li class="contactIcon animated bounceInDown" id="emailLink">
+                <i class="far fa-envelope"></i>
+            </li>
+          </a>
+        </ul>
+      </header>
+    </div>
+  </section>
+
+  <!--*** SCRIPTS ***-->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
